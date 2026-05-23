@@ -1,0 +1,57 @@
+.project {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
+    background-color: rgba(241, 241, 241, 0.068);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.projectName {
+    background-image: linear-gradient(90deg, white, #a67bf5);
+    background-clip: text;
+    color: transparent;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.projectText {
+    align-self: flex-start;
+    height: 120px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.projectTechList {
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.projectImg {
+    border-radius: 15px;
+    max-width: 350px;
+    max-height: 220px;
+}
+
+.projectImg:hover {
+    border: #a67bf5 2px solid;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    .projectsContainer {
+    flex-direction: column;
+    }
+}

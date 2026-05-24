@@ -1,3 +1,20 @@
-nav {
-    border: 10px red solid;
+.navbar {
+    justify-content: space-around;
+    width: 300px;
+    margin: 20px 0 20px 0;
+}
+
+.navbarList {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbarListItem {
+    color: white;
+    text-decoration: none;
+}
+
+.navbarListItem:hover {
+    color: #a67bf5;
 }

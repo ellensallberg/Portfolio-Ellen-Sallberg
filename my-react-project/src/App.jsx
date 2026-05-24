@@ -3,7 +3,7 @@ import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
 import Projects from "./pages/Projects.jsx"
 
-import Navbar from "./navbar.jsx"
+import Navbar from "./components/navbar.jsx"
 
 function App() {
   return (

@@ -7,7 +7,6 @@ import image3 from "../assets/typingGame.jpg"
 function Portfolio() {
     return(
         <div>
-            <h2>Projects</h2>
             <div className="projectsContainer">
                 <Project 
                 title = "Explore The Infinite" 

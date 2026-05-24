@@ -9,7 +9,6 @@ function Project(props) {
         <a href={props.projectLink} target="_blank" rel="noreferrer">
             <img src={props.image} alt="project image" className="projectImg" />
         </a>
-
     </div>
   )
 }

@@ -1,7 +1,6 @@
 import "./project.css"
 
 function Project(props) {
-
     return(
     <div className="project">
         <h2 className="projectName">{props.title}</h2>

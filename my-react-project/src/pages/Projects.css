@@ -1,0 +1,6 @@
+.projects-BtnContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}

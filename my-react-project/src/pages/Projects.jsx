@@ -1,12 +1,25 @@
 import Project from "../components/project";
-
 import image1 from "../assets/exploreTheInfinite.jpg"
 import image2 from "../assets/genesis.jpg"
 import image3 from "../assets/typingGame.jpg"
+import "./Projects.css"
 
-function Portfolio() {
+import { useState } from "react";
+
+function Projects() {
+    const [showProjects, setShowProjects] = useState(false)
+    const displayProjects = () => {
+        if (showProjects) {
+            setShowProjects(false);
+        } else {
+            setShowProjects(true);
+        }
+    }
+
     return(
-        <div>
+        <div className="projects-BtnContainer">
+            <button className="previewProjectsBtn" onClick={displayProjects}>Preview projects</button>
+            {showProjects && (
             <div className="projectsContainer">
                 <Project 
                 title = "Explore The Infinite" 
@@ -35,8 +48,9 @@ function Portfolio() {
                 projectLink = "https://github.com/ellensallberg/typingGame.git"
                 />
             </div>
+            )}
         </div>
     )
 }
 
-export default Portfolio;
+export default Projects;

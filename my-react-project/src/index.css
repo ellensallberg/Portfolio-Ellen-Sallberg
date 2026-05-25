@@ -10,3 +10,12 @@
 body {
     background-color: #170821;
 }
+
+button {
+    background-color: #a67bf5;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
